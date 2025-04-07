@@ -8,5 +8,5 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dontnet build --configuration $(buildconfiguration)
+- script: dotnet build --configuration $(buildconfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
